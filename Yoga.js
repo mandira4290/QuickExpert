@@ -82,3 +82,15 @@ ScrollReveal().reveal(".photos__card", {
   duration: 1000,
   interval: 500,
 });
+
+    function callNow() {
+      window.location.href = "tel:+919039572509";
+    }
+
+    function callNow() {
+      window.location.href = "tel:+919039572509";
+    }
+
+
+   
+    
