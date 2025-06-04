@@ -158,7 +158,7 @@
       color: #006064;
       text-decoration: none;
       background: linear-gradient(45deg, #006064, #00bcd4);
-      -webkit-background-clip: text;
+     
       -webkit-text-fill-color: transparent;
       transition: transform 0.3s ease;
       display: inline-block;
@@ -307,8 +307,7 @@
     }
 
     /* Call Button */
-    .call-btn {
-    }
+    
 
    
     /* Slide-in animation */
@@ -803,6 +802,7 @@ header::before {
      
     }
 
+
     .banner {
     
       color: white;
@@ -816,6 +816,12 @@ header::before {
       height: 350px;
      
     }
+
+.banner__container {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  text-align: center;
+}
 
     .banner h1 {
       font-size: 2rem;
