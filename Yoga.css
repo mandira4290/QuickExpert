@@ -803,6 +803,7 @@ header::before {
      
     }
 
+<<<<<<< HEAD
     .banner {
     
       color: white;
@@ -816,6 +817,13 @@ header::before {
       height: 350px;
      
     }
+=======
+.banner__container {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  text-align: center;
+}
+>>>>>>> 314fe1fd91d8d08deadb902b3f9a4d017e724ba4
 
     .banner h1 {
       font-size: 2rem;
